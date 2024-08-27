@@ -1,0 +1,176 @@
+/* Cores dos Cards */
+.dark-01 {
+    background-color: #2E2C2C;
+    height: 45vh !important;
+}
+.dark-02 {
+    background-color: #282828;
+    height: 45vh !important;
+}
+.dark-03 {
+    background-color: #222121;
+    height: 45vh !important;
+}
+.dark-04 {
+    background-color: #161616;
+    height: 45vh !important;
+}
+
+/* Cores */
+.cor-01 {
+    background-color: #2E2C2C;
+}
+.cor-02 {
+    background-color: #282828;
+}
+.cor-03 {
+    background-color: #222121;
+}
+.cor-04 {
+    background-color: #161616;
+}
+
+/* Paragrafos */
+.text-razoes {
+    font-size: .9rem !important;
+    color: #a5a5a5 !important;
+}
+.titulo-razoes {
+    font-size: 1.5rem !important;
+}
+
+/* Sobre */
+.capa-01 {
+    background-image: url('../img/img01.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 70vh !important;
+}
+.capa-02 {
+    background-image: url('../img/img02.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 68vh !important;
+}
+.marca-dagua {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    width: 100px;
+    opacity: .2;
+}
+
+/* Btns */
+.btn-pro {
+    border-radius: 50px;
+    border: 2px solid #398edb;
+    background: transparent;
+    padding: 10px 30px;
+    color: #398edb;
+    transition: all .4s linear;
+    font-weight: 700;
+}
+
+.btn-pro:hover {
+    background: #398edb;
+    color: #212529ff;
+    transition: all .4s linear;
+}
+
+/* Portfolio */
+.port01 {
+    background-image: url('../img/port01.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 50vh !important;
+}
+.port02 {
+    background-image: url('../img/port02.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 50vh !important;
+}
+.port03 {
+    background-image: url('../img/port03.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: auto;
+}
+.port04 {
+    background-image: url('../img/port04.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 50vh !important;
+}
+.port05 {
+    background-image: url('../img/port05.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 50vh !important;
+}
+.port06 {
+    background-image: url('../img/port06.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 50vh !important;
+}
+.port07 {
+    background-image: url('../img/port07.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 50vh !important;
+}
+.port08 {
+    background-image: url('../img/port08.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 50vh !important;
+}
+.legenda-port {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 600;
+    font-size: 1.3rem;
+    color: #ffffffb1;
+    text-transform: uppercase;
+}
+
+/* Card */
+.card {
+    border: none !important;
+    box-shadow: 2px 2px 9px rgba(0, 0, 0, .2);
+}
+
+/* Nav Link */
+.nav-link {
+    color: #a5a5a5;
+}
+.nav-link:hover {
+    color: #0088FF;
+}
+.nav-link.active {
+    color: #0088FF !important;
+    font-weight: 700;
+}
